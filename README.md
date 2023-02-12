@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [product-card-ysfsck.surge.sh](product-card-ysfsck.surge.sh)
 
 ### Built with
 
@@ -40,4 +40,4 @@ Users should be able to:
 
 - Linkedin - [Yusufhan Saçak](https://www.linkedin.com/in/yusufhansacak/)
 - Frontend Mentor - [@JosephDoUrden](https://www.frontendmentor.io/profile/JosephDoUrden)
-- Twitter - [@0xSCK](https://www.twitter.com/0xSCK)# Product-Preview-Card-Component-Solution
+- Twitter - [@0xSCK](https://www.twitter.com/0xSCK)

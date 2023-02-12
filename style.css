@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root{
+    --clr-primary-400: hsl(158, 36%, 37%);
+    --clr-secondary-200: hsl(30, 38%, 92%);
+
+    --clr-neutral-900: hsl(212, 21%, 14%);
+    --clr-neutral-400: hsl(228, 12%, 48%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    line-height: 1.7;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    color: var(--clr-neutral-400);
+    background-color: var(--clr-secondary-200);
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+img,
+picture,
+svg{
+    display: block;
+    max-width: 100%;
+}
+
+button{
+    font: inherit;
+}
+
+p,
+h1{
+    overflow-wrap: break-word;
+}
+
+h1{
+    line-height: 1.1;
+}
+
+.flex-group{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product{
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem;
+
+    display: grid;
+    background-color: var(--clr-neutral-100);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+@media (min-width: 600px){
+    .product{
+        --content-padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.product-content{
+    display: grid;
+    gap: var(--content-spacing);
+    padding: var(--content-padding);
+}
+
+.product-category{
+    font-size: 0.8125rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.product-title{
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-neutral-900);
+}
+
+.product-price{
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    color: var(--clr-primary-400);
+}
+
+.btn{
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+    font-weight: var(--fw-bold);
+    font-size: 0.925rem;
+}
