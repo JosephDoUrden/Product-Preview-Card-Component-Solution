@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [product-card-ysfsck.surge.sh](product-card-ysfsck.surge.sh)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-Ps4DRio1r6](https://www.frontendmentor.io/solutions/product-preview-card-component-Ps4DRio1r6)
+- Live Site URL: [https://product-card-ysfsck.netlify.app/](https://product-card-ysfsck.netlify.app/)
 
 ### Built with
 
